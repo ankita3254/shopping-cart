@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online store</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    
     <script src="https://kit.fontawesome.com/0a6354f3be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="/css/style.css">
+
     <header>
         <div class="container">
             <div class="row">
@@ -34,12 +38,15 @@
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">HOME</a>
+                  <!-- <a class="navbar-brand" href="#">HOME</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                  </button> -->
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                      </li>
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
                       </li>
@@ -59,14 +66,32 @@
                     <li class="nav-item  mx-3 search-icon">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </li>
-                    <li class="nav-item  mx-3 search-icon">
+                    <li class="nav-item  mx-3 basket-icon">
                         <i class="fa-solid fa-basket-shopping"></i>
                     </li>
                 </div>
               </nav>
         </div>
     </header>
-    <main></main>
+    <main>
+      <div class="container-fluid p-0">
+        <div class="site-slider p-0">
+          <div class="slider-one p-0">
+            <div>
+              <img src="/assets/save.jpg" class="img-fluid p-0"></div>
+            <div>
+              <img src="/assets/attachment.jpg" class="img-fluid p-0"></div>
+            <div>
+              <img src="/assets/banner2.png" class="img-fluid p-0"></div>
+          </div>
+          <div class="slider-btn">
+            <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+            <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+          </div>
+        </div>
+
+      </div>
+    </main>
     <footer></footer>
 </head>
 <body>
@@ -75,5 +100,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src=                
+      "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+       $('.site-slider .slider-one')
+       .not(".slick-initialized")
+       .slick({
+        autoplay:true,
+        autoplaySpeed:3000,
+        dots:true,
+        prevArrow:".site-slider .slider-btn .prev",
+        nextArrow:".site-slider .slider-btn .next"
+       });
+    </script>
 </body>
 </html>
