@@ -16,13 +16,8 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12 col-12 ">
-                    <div class="btn-group">
-                        <button class="btn border dropdown-toggle my-md-4 my-2" data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">USD</button>
-                        <div class="dropdown-menu">
-                            <a href="#"class="dropdown-item">ERU-euro</a>
-                        </div>
-                    </div>
+              <div class="col-md-4 col-12 text-left ">
+                <img src="/assets/—Pngtree—fashion logo beauty_6888431.png" style="width:25% ;">
                 </div>
                 <div class="col-md-4 col-12 text-center ">
                     <h2 class="my-md-3 site-title ">Online Store</h2>
@@ -78,11 +73,11 @@
         <div class="site-slider p-0">
           <div class="slider-one p-0">
             <div>
-              <img src="/assets/save.jpg" class="img-fluid p-0"></div>
+              <img src="/assets/giff.gif" class="img-fluid p-0"></div>
             <div>
-              <img src="/assets/attachment.jpg" class="img-fluid p-0"></div>
+              <img src="/assets/1st.jpg" class="img-fluid p-0"></div>
             <div>
-              <img src="/assets/banner2.png" class="img-fluid p-0"></div>
+              <img src="/assets/2nd.jpg" style="margin-top: 7%;"class="img-fluid p-0"></div>
           </div>
           <div class="slider-btn">
             <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
@@ -90,6 +85,48 @@
           </div>
         </div>
 
+      </div>
+
+      <!-- second slider -->
+      <div class="container-fluid">
+        <div class="site-slider-two px-md-4">
+          <h2 style="text-align:center ; margin-top: 5%; padding: 4px;">Featured Products</h2>
+          <div class="row slider-two text-center">
+            
+            <div class="col-md-2 product pt-md-5 pt-4">
+            <img src="/assets/dress1.jpg"style="margin-top: 4%;">
+            <span class="border site-btn btn-span">DRESSES</span>
+            </div>
+            <div class="col-md-2 product pt-md-5 pt-4">
+              <img src="/assets/sweater2.jpg" style="margin-top: 25%;">
+              <span class="border site-btn btn-span">WINTER WEARS</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="/assets/top.jpg" >
+                <span class="border site-btn btn-span">TOPS</span>
+                </div>
+                <div class="col-md-2 product pt-md-5 pt-4">
+                  <img src="/assets/jeans.jpg" style="margin-top: 9%;" >
+                  <span class="border site-btn btn-span">JEANS</span>
+                  </div>
+                  <div class="col-md-2 product pt-md-5 pt-4">
+                    <img src="/assets/purse.jpg"style="margin-top: 25%;" >
+                    <span class="border site-btn btn-span">PURSES</span>
+                    </div>
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                      <img src="/assets/sandals.jpg" style="margin-top: 25%;">
+                      <span class="border site-btn btn-span">SANDALS</span>
+                      </div>
+                      <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="/assets/shoes.jpg"style="margin-top: 27%;" >
+                        <span class="border site-btn btn-span">SHOES</span>
+                        </div>
+          </div>
+          <div class="slider-btn">
+            <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+            <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+          </div>
+        </div>
       </div>
     </main>
     <footer></footer>
@@ -114,6 +151,17 @@
         prevArrow:".site-slider .slider-btn .prev",
         nextArrow:".site-slider .slider-btn .next"
        });
+
+       $('.slider-two')
+       .not(".slick-initialized")
+       .slick({
+        
+        prevArrow:".site-slider-two .prev",
+        nextArrow:".site-slider-two .next",
+        slidesToShow:6,
+        slidesToScroll:1
+       });
+     
     </script>
 </body>
 </html>
