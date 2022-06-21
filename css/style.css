@@ -53,7 +53,14 @@ header.container.site-title{
 
 .navbar-nav .nav-link{
     font-size: 0.9em;
-    color: var(--light-grey)!important;
+    color: var(--light-grey);
+    display: flex;
+    justify-content: left;
+}
+#navv li a:hover,
+#navv li a.nav-item
+{
+  color: rgb(255, 127, 127);
 }
 
 .navbar-nav .nav-item .nav-link{
@@ -126,3 +133,270 @@ header.container.site-title{
 
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:6%;
+    text-align:center;
+    font-family: arial;
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:15%;
+    text-align:center;
+    font-family: arial;
+  } 
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:20%;
+    text-align:center;
+    font-family: arial;
+  } 
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:20%;
+    text-align:center;
+    font-family: arial;
+  } 
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:20%;
+    text-align:center;
+    font-family: arial;
+  } 
+  .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:20%;
+    text-align:center;
+    font-family: arial;
+  } 
+  .card6 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:20%;
+    text-align:center;
+    font-family: arial;
+  } 
+  .card7 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin-left:20%;
+    text-align:center;
+    font-family: arial;
+  } 
+
+  .price {
+    color: grey;
+    font-size: 19px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card1 button:hover {
+    opacity: 0.7;
+  }
+  .card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card2 button:hover {
+    opacity: 0.7;
+  }
+  .card3 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card3 button:hover {
+    opacity: 0.7;
+  }
+  .card4 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card4 button:hover {
+    opacity: 0.7;
+  }
+  .card5 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card5 button:hover {
+    opacity: 0.7;
+  }
+  .card6 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card6 button:hover {
+    opacity: 0.7;
+  }
+  .card7 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgba(61, 34, 44, 0.753);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card7 button:hover {
+    opacity: 0.7;
+  }
+
+  #newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: rgb(29, 35, 103);
+    padding-left: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+.news{
+    padding-top: 3%;
+  }
+  #newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: beige;
+  }
+
+  #newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(133, 130, 139);
+  }
+
+  #newsletter p span{
+    color: rgb(225, 225, 44);
+  }
+
+  #newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  #newsletter button{
+    border-radius: 4px;
+    padding: 3%;
+    margin-top:6px;
+    border: 1px solid transparent;
+    outline: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgba(4, 153, 246, 0.717);
+    color: white;
+  }
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  /* footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  footer p{
+    font-size: 13px;
+    padding-bottom: 20px;
+  } */
+
+  .col a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+  }
